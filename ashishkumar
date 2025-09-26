@@ -1,9 +1,0 @@
-this is a trial file for the git push.
-I am finding a way to have new things added here
-
-
-Recent Impact
-	•	Delivery Pipeline — Smart Image Caching: Re-architected image pulls to use a remote cache only for new builds; eliminated redundant downloads and network bottlenecks, cutting total pipeline time ~30–45% and reducing external pulls by ~80%+.
-	•	Release Engineering — Shift-Left Static Gates: Moved lint/compile checks to the first stage; failures now surface in ~2–5 minutes (was 60–120 minutes), saving compute and engineer time with ~60–80% faster feedback.
-	•	Quality Platform — Template-Driven Suites (Robot Framework): Consolidated repetitive perf/data-model checks into parameterized templates + shared keywords; reduced code ~35–50%, simplified debugging, and lowered flaky failures to <1% via a single source of truth.
-	•	Network Test Toolkit — Router Config Library: Centralized router setup into a reusable resource/sub-projectwith idempotent, proven keywords; shortened environment bring-up ~35–45% and improved repeatability (+15–20% higher first-run success).
