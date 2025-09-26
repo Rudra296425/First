@@ -1,4 +1,4 @@
-# First
+# git-galaxy
 
 A trial repository for experimenting with Git, GitHub, and project setup.
 
