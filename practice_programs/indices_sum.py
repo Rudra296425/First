@@ -1,3 +1,4 @@
+# Two-sum indices (first pair), return -1 if none
 def two_sum(arr, k):
     seen = {}
     for i, x in enumerate(arr):
